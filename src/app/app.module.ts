@@ -15,6 +15,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 
 import { HeroesComponent } from './hero/heroes.component';
 import { HeroSearchComponent } from './hero/hero-search.component';
+import { HeroSearchObComponent } from './hero/hero-search-ob.component';
 import { DashboardComponent } from './hero/dashboard.component';
 import { HeroDetailComponent } from './hero/hero-detail.component';
 import { PageNotFoundComponent } from './not-found.component';
@@ -24,6 +25,7 @@ import { PageNotFoundComponent } from './not-found.component';
     AppComponent,
     HeroesComponent,
     HeroSearchComponent,
+    HeroSearchObComponent,
     DashboardComponent,
     PageNotFoundComponent,
     HeroDetailComponent,
