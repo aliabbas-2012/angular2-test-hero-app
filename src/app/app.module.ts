@@ -14,6 +14,7 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
 import { HeroesComponent } from './hero/heroes.component';
+import { HeroSearchComponent } from './hero/hero-search.component';
 import { DashboardComponent } from './hero/dashboard.component';
 import { HeroDetailComponent } from './hero/hero-detail.component';
 import { PageNotFoundComponent } from './not-found.component';
@@ -22,6 +23,7 @@ import { PageNotFoundComponent } from './not-found.component';
   declarations: [
     AppComponent,
     HeroesComponent,
+    HeroSearchComponent,
     DashboardComponent,
     PageNotFoundComponent,
     HeroDetailComponent,
