@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+
+<h1>{{title}}</h1>
+<nav>
+  <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+  <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+</nav>
+<div style="margin-top:15px">Welcome To Heroes Application </div>
+
+<router-outlet></router-outlet>
